@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-22T16:45:06 IST" name="SauceDemo Test Suite" finished-at="2026-07-22T16:45:29 IST" duration-ms="22999">
+    <groups>
+    </groups>
+    <test started-at="2026-07-22T16:45:06 IST" name="SauceDemo Tests" finished-at="2026-07-22T16:45:29 IST" duration-ms="22999">
+      <class name="com.saucedemo.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucedemo.tests.LoginTest@3a93b025]" started-at="2026-07-22T16:45:19 IST" name="setUp" finished-at="2026-07-22T16:45:20 IST" duration-ms="1724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="emptyCredentialsTest()[pri:0, instance:com.saucedemo.tests.LoginTest@3a93b025]" started-at="2026-07-22T16:45:20 IST" name="emptyCredentialsTest" finished-at="2026-07-22T16:45:21 IST" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCredentialsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.LoginTest@3a93b025]" started-at="2026-07-22T16:45:21 IST" name="tearDown" finished-at="2026-07-22T16:45:21 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucedemo.tests.LoginTest@3a93b025]" started-at="2026-07-22T16:45:21 IST" name="setUp" finished-at="2026-07-22T16:45:23 IST" duration-ms="1741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidPasswordTest()[pri:0, instance:com.saucedemo.tests.LoginTest@3a93b025]" started-at="2026-07-22T16:45:23 IST" name="invalidPasswordTest" finished-at="2026-07-22T16:45:23 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.LoginTest@3a93b025]" started-at="2026-07-22T16:45:23 IST" name="tearDown" finished-at="2026-07-22T16:45:24 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucedemo.tests.LoginTest@3a93b025]" started-at="2026-07-22T16:45:24 IST" name="setUp" finished-at="2026-07-22T16:45:25 IST" duration-ms="1730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidUsernameTest()[pri:0, instance:com.saucedemo.tests.LoginTest@3a93b025]" started-at="2026-07-22T16:45:25 IST" name="invalidUsernameTest" finished-at="2026-07-22T16:45:26 IST" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.LoginTest@3a93b025]" started-at="2026-07-22T16:45:26 IST" name="tearDown" finished-at="2026-07-22T16:45:26 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucedemo.tests.LoginTest@3a93b025]" started-at="2026-07-22T16:45:26 IST" name="setUp" finished-at="2026-07-22T16:45:28 IST" duration-ms="2123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginTest()[pri:0, instance:com.saucedemo.tests.LoginTest@3a93b025]" started-at="2026-07-22T16:45:28 IST" name="validLoginTest" finished-at="2026-07-22T16:45:29 IST" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.LoginTest@3a93b025]" started-at="2026-07-22T16:45:29 IST" name="tearDown" finished-at="2026-07-22T16:45:29 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.LoginTest -->
+      <class name="com.saucedemo.tests.E2ECheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucedemo.tests.E2ECheckoutTest@79e2c065]" started-at="2026-07-22T16:45:06 IST" name="setUp" finished-at="2026-07-22T16:45:10 IST" duration-ms="3759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="completeCheckoutFlow()[pri:0, instance:com.saucedemo.tests.E2ECheckoutTest@79e2c065]" started-at="2026-07-22T16:45:10 IST" name="completeCheckoutFlow" finished-at="2026-07-22T16:45:16 IST" duration-ms="6354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeCheckoutFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.E2ECheckoutTest@79e2c065]" started-at="2026-07-22T16:45:16 IST" name="tearDown" finished-at="2026-07-22T16:45:16 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucedemo.tests.E2ECheckoutTest@79e2c065]" started-at="2026-07-22T16:45:16 IST" name="setUp" finished-at="2026-07-22T16:45:18 IST" duration-ms="1663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="removeProductFromCartTest()[pri:0, instance:com.saucedemo.tests.E2ECheckoutTest@79e2c065]" started-at="2026-07-22T16:45:18 IST" name="removeProductFromCartTest" finished-at="2026-07-22T16:45:19 IST" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.E2ECheckoutTest@79e2c065]" started-at="2026-07-22T16:45:19 IST" name="tearDown" finished-at="2026-07-22T16:45:19 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.E2ECheckoutTest -->
+    </test> <!-- SauceDemo Tests -->
+  </suite> <!-- SauceDemo Test Suite -->
+</testng-results>

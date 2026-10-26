@@ -1,0 +1,4 @@
+com\saucedemo\listeners\ExtentReportListener.class
+com\saucedemo\tests\E2ECheckoutTest.class
+com\saucedemo\tests\BaseTest.class
+com\saucedemo\tests\LoginTest.class

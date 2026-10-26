@@ -1,0 +1,36 @@
+pipeline {
+    agent any
+
+    tools {
+        maven 'Maven3'
+        jdk 'JDK11'
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Build') {
+            steps {
+                sh 'mvn -B clean compile'
+            }
+        }
+
+        stage('Run Automated Tests') {
+            steps {
+                sh 'mvn -B test'
+            }
+        }
+    }
+
+    post {
+        always {
+            junit testResults: 'target/surefire-reports/*.xml', allowEmptyResults: true
+            archiveArtifacts artifacts: 'test-output/ExtentReports/*.html', allowEmptyArchive: true
+            archiveArtifacts artifacts: 'test-output/ExtentReports/*.png', allowEmptyArchive: true
+        }
+    }
+}
